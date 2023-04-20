@@ -1,0 +1,52 @@
+[
+  {
+    "question": "Which country won the 2018 FIFA World Cup?",
+    "options": ["Brazil", "France", "Germany", "Spain"],
+    "answer": "France"
+  },
+  {
+    "question": "Who won the Ballon d'Or award for 2021?",
+    "options": ["Lionel Messi", "Cristiano Ronaldo", "Neymar Jr", "Kylian Mbappe"],
+    "answer": "Lionel Messi"
+  },
+  {
+    "question": "Which team has won the most UEFA Champions League titles?",
+    "options": ["Barcelona", "AC Milan", "Real Madrid", "Liverpool"],
+    "answer": "Real Madrid"
+  },
+  {
+    "question": "Which player scored the most goals in the English Premier League during the 2020/2021 season?",
+    "options": ["Harry Kane", "Mohamed Salah", "Bruno Fernandes", "Jamie Vardy"],
+    "answer": "Harry Kane"
+  },
+  {
+    "question": "Which club did Cristiano Ronaldo play for before joining Manchester United in 2021?",
+    "options": ["Real Madrid", "Juventus", "Barcelona", "Paris Saint-Germain"],
+    "answer": "Juventus"
+  },
+  {
+    "question": "Which country won the 2020 UEFA European Championship?",
+    "options": ["Italy", "Spain", "England", "Germany"],
+    "answer": "Italy"
+  },
+  {
+    "question": "Who won the 2021 Copa America tournament?",
+    "options": ["Brazil", "Argentina", "Chile", "Uruguay"],
+    "answer": "Argentina"
+  },
+  {
+    "question": "Which club won the 2020/2021 UEFA Europa League?",
+    "options": ["Villarreal", "Manchester United", "Arsenal", "Roma"],
+    "answer": "Villarreal"
+  },
+  {
+    "question": "Who won the FIFA Women's World Cup in 2019?",
+    "options": ["Germany", "United States", "France", "England"],
+    "answer": "United States"
+  },
+  {
+    "question": "Which player won the Golden Boot at the 2018 FIFA World Cup?",
+    "options": ["Harry Kane", "Kylian Mbappe", "Luka Modric", "Cristiano Ronaldo"],
+    "answer": "Harry Kane"
+  }
+]
