@@ -19,10 +19,9 @@ The Countries and Flags Quiz Android application has the following features:
 <p float="left">
 <img width="361" alt="image" src="https://user-images.githubusercontent.com/66652532/233410449-8849f84a-7257-4115-ad69-1b62e77d98a5.png">
 <img width="361" alt="image" src="https://user-images.githubusercontent.com/66652532/233410548-c25e25f7-90a5-41fe-8c66-de5f841b6c1f.png">
-![image](https://user-images.githubusercontent.com/66652532/233411419-377669c6-ff40-478e-9d0b-6ff775ede3af.png)
-![image](https://user-images.githubusercontent.com/66652532/233411657-499b75e3-63b5-496d-b537-c141c1e97b62.png)
-![device-2023-04-20-182712](https://user-images.githubusercontent.com/66652532/233414728-f459bd1a-3e68-48e8-b0d9-d96cca8f3b9b.gif)
 
+   
+[device-2023-04-20-182712.webm](https://user-images.githubusercontent.com/66652532/233415446-8b0fe60a-bcef-475f-b4fc-6ba3ed1e5922.webm)
 
   
 </p>
