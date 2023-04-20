@@ -2,6 +2,8 @@ package com.project1.common;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.ComponentName;
+import android.content.Intent;
 import android.graphics.Color;
 import android.os.Bundle;
 import android.view.View;
@@ -10,11 +12,13 @@ import android.widget.RadioButton;
 import android.widget.RadioGroup;
 import android.widget.TextView;
 
+import com.google.android.material.button.MaterialButton;
+
 public class GameActivity extends AppCompatActivity {
 
     private RadioGroup game_RBG_options;
     private TextView game_TV_question, game_TV_answer;
-    private Button game_BTN_next, game_BTN_exit;
+    private MaterialButton game_BTN_next, game_BTN_exit,game_BTN_flags,game_BTN_football;
     private int currentQuestion = 0;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -22,7 +26,29 @@ public class GameActivity extends AppCompatActivity {
         setContentView(R.layout.activity_game);
         findViews();
         initVars();
+
+
+        game_BTN_flags.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent();
+                intent.setComponent(new ComponentName("com.project1.flags", "com.project1.flags.MainActivity"));
+                startActivity(intent);
+
+            }
+        });
+
+        game_BTN_football.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent();
+                intent.setComponent(new ComponentName("com.project1.football", "com.project1.football.MainActivity"));
+                startActivity(intent);
+            }
+        });
     }
+
+
 
     private void initVars() {
         setUIQuestion(currentQuestion);
@@ -75,6 +101,8 @@ public class GameActivity extends AppCompatActivity {
         game_TV_question = findViewById(R.id.game_TV_question);
         game_TV_answer = findViewById(R.id.game_TV_answer);
         game_RBG_options = findViewById(R.id.game_RBG_options);
+        game_BTN_football=findViewById(R.id.game_BTN_football);
+        game_BTN_flags=findViewById(R.id.game_BTN_flags);
     }
 
     private void setUIQuestion(int index){

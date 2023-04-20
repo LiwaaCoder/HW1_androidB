@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -28,21 +27,27 @@
         <RadioButton
             android:textColor="@color/white"
             android:text="Option 1"
+            android:height="32dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"/>
         <RadioButton
             android:textColor="@color/white"
             android:text="Option 2"
+            android:height="32dp"
+
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"/>
         <RadioButton
             android:textColor="@color/white"
+            android:height="32dp"
+
             android:text="Option 3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"/>
 
         <RadioButton
             android:layout_width="match_parent"
+            android:height="32dp"
             android:layout_height="wrap_content"
             android:text="Option 4"
             android:textColor="@color/white" />
@@ -64,7 +69,7 @@
         android:layout_height="wrap_content"
         android:orientation="horizontal"
         >
-        <Button
+        <com.google.android.material.button.MaterialButton
             android:id="@+id/game_BTN_exit"
             android:layout_weight="1"
             android:layout_width="0dp"
@@ -73,7 +78,7 @@
             android:backgroundTint="#FF0000"
             android:textColor="@color/white"
             />
-        <Button
+        <com.google.android.material.button.MaterialButton
             android:id="@+id/game_BTN_next"
             android:layout_weight="1"
             android:layout_width="0dp"
@@ -82,6 +87,32 @@
             android:backgroundTint="@color/purple_700"
             android:textColor="@color/white"
             />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="200dp"
+        android:layout_height="150dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="128dp"
+        android:orientation="vertical">
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/game_BTN_flags"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#FF5722"
+            android:text="flags Game"
+            android:textColor="@color/white" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/game_BTN_football"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/purple_200"
+            android:text="football Game"
+            android:textColor="@color/white" />
 
     </LinearLayout>
 </RelativeLayout>
