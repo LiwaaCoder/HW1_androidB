@@ -17,11 +17,12 @@ The Countries and Flags Quiz Android application has the following features:
     
    
 <p float="left">
-<img width="361" alt="image" src="https://user-images.githubusercontent.com/66652532/233403433-77d48fed-7e8c-47ed-b018-801e44281a1e.png">
-<img width="361" alt="image" src="https://user-images.githubusercontent.com/66652532/233403484-217c0c13-9745-4e6a-9f28-15f747927a65.png">
-<img width="361" alt="image" src="https://user-images.githubusercontent.com/66652532/233403549-9e935e4c-7fd6-4483-bb47-f36db080db4b.png">
-<img width="361" alt="image" src="https://user-images.githubusercontent.com/66652532/233403812-0fbabf35-8b4b-48b3-b22f-c55d4098ae0c.png">
-<img width="361" alt="image" src="https://user-images.githubusercontent.com/66652532/233403858-fff0d3b1-88c0-4c7b-b583-8cc725c6de9a.png">
+<img width="361" alt="image" src="https://user-images.githubusercontent.com/66652532/233410449-8849f84a-7257-4115-ad69-1b62e77d98a5.png">
+<img width="361" alt="image" src="https://user-images.githubusercontent.com/66652532/233410548-c25e25f7-90a5-41fe-8c66-de5f841b6c1f.png">
+![image](https://user-images.githubusercontent.com/66652532/233411419-377669c6-ff40-478e-9d0b-6ff775ede3af.png)
+![image](https://user-images.githubusercontent.com/66652532/233411657-499b75e3-63b5-496d-b537-c141c1e97b62.png)
+![device-2023-04-20-182712](https://user-images.githubusercontent.com/66652532/233414728-f459bd1a-3e68-48e8-b0d9-d96cca8f3b9b.gif)
+
 
   
 </p>
