@@ -1,4 +1,4 @@
-package com.project1.countries;
+package com.project1.flags;
 
 import android.content.Context;
 
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
     public void useAppContext() {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getInstrumentation().getTargetContext();
-        assertEquals("com.project1.countries", appContext.getPackageName());
+        assertEquals("com.project1.animals", appContext.getPackageName());
     }
 }

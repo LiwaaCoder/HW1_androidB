@@ -1,4 +1,4 @@
-package com.project1.countries;
+package com.project1.flags;
 
 import org.junit.Test;
 
